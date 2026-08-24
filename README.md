@@ -1,8 +1,8 @@
-# BookReport
+# 📘  Book Report
 I’m organizing my thoughts and opinions on books I’ve recently read. I welcome your contributions as well.
 [Source](https://github.com/ktmrkzy/BookReport.git)
 
-# Table of contents
+# 📖  Table of contents
 <ul>
   <li>
     <a href="#philosophy-psychology">Philosophy / Psychology</a>
@@ -24,6 +24,8 @@ I’m organizing my thoughts and opinions on books I’ve recently read. I welco
     </details>
   </li>
 </ul>
+
+# 📚  Report
 
 <h2 id="philosophy-psychology">Philosophy / Psychology</h2>
 
