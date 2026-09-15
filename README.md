@@ -12,6 +12,7 @@ I’m organizing my thoughts and opinions on books I’ve recently read. I welco
         <li><a href="#ordinary-medicine">「普通」につけるくすり</a></li>
         <li><a href="#cafe-on-the-edge">世界の果てのカフェ</a></li>
         <li><a href="#who-moved-my-cheese">チーズはどこへ消えた？</a></li>
+        <li><a href="#The-art-of-loving">愛するということ</a></li>
       </ul>
     </details>
   </li>
@@ -41,7 +42,7 @@ I’m organizing my thoughts and opinions on books I’ve recently read. I welco
 </details>
 
 <h3 id="cafe-on-the-edge">世界の果てのカフェ / ジョン・ストレルキー</h3>
-<p>- <a href="https://www.fusosha.co.jp/special/cheese/" target="_blank">https://www.fusosha.co.jp/special/cheese/</a></p>
+<p>- <a href="https://www.diamond.co.jp/book/9784478122549.html" target="_blank">https://www.diamond.co.jp/book/9784478122549.html</a></p>
 
 <details>
   <summary>レビュー</summary>
@@ -51,13 +52,23 @@ I’m organizing my thoughts and opinions on books I’ve recently read. I welco
 </details>
 
 <h3 id="who-moved-my-cheese">チーズはどこへ消えた？ / スペンサー・ジョンソン</h3>
-<p>- <a href="https://www.diamond.co.jp/book/9784478122549.html" target="_blank">https://www.diamond.co.jp/book/9784478122549.html</a></p>
+<p>- <a href="https://www.fusosha.co.jp/special/cheese/" target="_blank">https://www.fusosha.co.jp/special/cheese/</a></p>
 
 <details>
   <summary>レビュー</summary>
   <p>
     この本は<b>「ネズミと小人の話から、我々の人生における多くのコトに示唆を与える作品」</b>である。登場人物である、2匹のネズミと2体の小人はチーズを探し迷路をさまよう。ここでいうチーズとは彼らにとっては幸福の象徴であり、夢であり、望むものである。一方で我々に置き換えると、このチーズは我々の立場にも置き換えることができる。私はこのチーズに「仕事、生き様、人間関係、恋愛」などを感じた。もう少し具体的に考えた方が本書を十分に味わうことができるともうが、その具体化は読んだ人に委ねたい。ぜひ、自身の現在の状況に当てはめて読んでもらいたい。<br>
     さて、彼らが追い求めるチーズだが一度はそれを見つけ出すことができた。そしてそのチーズは山のように積まれており、彼らはそのチーズを味わいつくした。チーズがなくなると4社はそれぞれ違う行動をとる。次のチーズを探しに行くものや、チーズは誰かに奪われたと嘆き行動を起こさない者。これこそ、この本の伝えたいところなのだろうと思う。我々はこのときどのように行動をとるのか。本書を読んだ人は、自身の実際の行動に当てはめて、この物語を追ってほしいと思う。
+  </p>
+</details>
+
+<h3 id="The-art-of-loving">愛するということ / エーリッヒ・フロム</h3>
+<p>- <a href="https://www.kinokuniya.co.jp/f/dsg-01-9784314011778" target="_blank">https://www.kinokuniya.co.jp/f/dsg-01-9784314011778</a></p>
+
+<details>
+  <summary>レビュー</summary>
+  <p>
+    この本は<b>「愛する技術」</b>について学ぶ本である。本書では愛することを<b>「理論」</b>と<b>「実践」</b>にわけて論じている。現代の多くの人は愛について「落ちるもの」、つまりは偶然的な情動の産物だと考えているかもしれない。だからこそ「恋に落ちる」なんて表現をするのかもしれないが。本書ではこれを否定する。「愛」というものは偶発的に発生するものではなく、自己の習練により生み出すものであると考える。現代では多くの人が「愛してほしいから愛する」、「あなたが必要だから愛する」といような形での愛を形成しようとする。しかしこれは愛するという視点に立つと、と手む奇妙に見える。この本で定義する愛とは<b>「配慮・責任・尊重・知」</b>からなるものである。各要素については本書を追って確認してほしいが、先ほどの愛の中にはこれらが欠けている。例えば<b>「配慮では相手を積極に気に掛けること」</b>が求められるが、「あなたが必要だから愛する」ような場合、関心は相手ではなく「私」なのである。だからこそ現代人の「愛」は彼の定義するような愛から外れており、だからこそ習練が必要であると説いているのである。
   </p>
 </details>
 
