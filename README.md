@@ -1,5 +1,24 @@
-# 🎯  Purpose
-I’m organizing my thoughts and opinions on books I’ve recently read. I welcome your contributions as well.
+# 余白の読書室
+
+読んだ本から、心に残った問いと、暮らしに持ち帰りたい視点を紹介する書籍紹介サイトです。
+
+## 起動方法
+
+JSONをブラウザから読み込むため、ローカルサーバーで起動してください。
+
+```powershell
+python -m http.server 8000
+```
+
+起動後、`http://localhost:8000` を開きます。
+
+## 書籍の追加・更新
+
+書籍情報は [data/books.json](data/books.json) にまとまっています。タイトル、タイトルの読み仮名（`titleKana`）、著者、分野、短い紹介、レビュー、出版社ページのURLを1冊分追加すると、サイトへ自動的に反映されます。本はタイトルの読み仮名で50音順に表示されます。
+
+表示ロジックは [app.js](app.js)、デザインは [styles.css](styles.css) で管理しています。
+
+---
 [Source](https://github.com/ktmrkzy/BookReport.git)
 
 # 📖  Table of contents
