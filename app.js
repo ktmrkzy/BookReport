@@ -43,7 +43,7 @@ const renderBooks = () => {
       <blockquote>${escapeHtml(book.excerpt)}</blockquote>
       <details>
         <summary>レビューを読む</summary>
-        <p class="review">${escapeHtml(book.review)}</p>
+        <p class="review">${book.review}</p>
       </details>
       <a class="book-link" href="${escapeHtml(book.url)}" target="_blank" rel="noreferrer">出版社サイトを見る ↗</a>
     </article>

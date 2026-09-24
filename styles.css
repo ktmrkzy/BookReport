@@ -73,10 +73,11 @@ h2 { font-size: 42px; font-weight: 600; letter-spacing: -.08em; margin: 13px 0 0
 .sr-only { height: 1px; margin: -1px; overflow: hidden; position: absolute; width: 1px; clip: rect(0, 0, 0, 0); }
 @keyframes rise-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
 @media (max-width: 760px) {
+  body { overflow-x: hidden; }
   .site-header { padding: 20px 6vw; }
   .top-nav { gap: 13px; }
   .top-nav a:last-child { display: none; }
-  .hero { min-height: 600px; padding: 78px 6vw 70px; }
+  .hero { min-height: 600px; overflow: hidden; padding: 78px 6vw 70px; }
   .hero::after { height: 210px; right: -45px; top: 115px; width: 210px; }
   .hero h1 { font-size: 48px; }
   .hero-index { bottom: 68px; position: absolute; right: 7vw; }
@@ -84,11 +85,13 @@ h2 { font-size: 42px; font-weight: 600; letter-spacing: -.08em; margin: 13px 0 0
   .library { padding: 74px 6vw 90px; }
   .library-tools { align-items: stretch; flex-direction: column; gap: 24px; }
   .search-box { width: 100%; }
+  .search-box input { min-width: 0; }
+  .filter-button { min-height: 42px; }
   .book-grid { grid-template-columns: 1fr; }
   .book-card { min-height: 0; }
   .about { display: block; padding: 72px 6vw; }
   .about-stamp { margin-bottom: 52px; }
   .about h2 { font-size: 27px; }
   .about-copy { margin-top: 28px; }
-  .site-footer { gap: 12px; line-height: 1.6; padding: 24px 6vw; }
+  .site-footer { flex-wrap: wrap; gap: 12px; line-height: 1.6; padding: 24px 6vw; }
 }
