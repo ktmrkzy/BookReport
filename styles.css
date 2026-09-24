@@ -69,11 +69,18 @@ h2 { font-size: 42px; font-weight: 600; letter-spacing: -.08em; margin: 13px 0 0
 .about-stamp { align-items: center; border: 1px solid var(--accent); border-radius: 50%; color: var(--accent); display: flex; font-family: var(--mono); font-size: 10px; height: 108px; justify-content: center; letter-spacing: .08em; line-height: 1.6; text-align: center; transform: rotate(-10deg); width: 108px; }
 .about h2 { font-size: 30px; line-height: 1.7; }
 .about-copy { color: var(--muted); font-size: 13px; line-height: 2.2; margin: 30px 0 0; }
-.creator { border-top: 1px solid var(--line); display: grid; gap: 7%; grid-template-columns: .75fr 1.6fr; margin: 0 auto; max-width: 1240px; padding: 95px 5vw 120px; }
-.creator h2 { margin-bottom: 22px; }
-.creator-lead { color: var(--muted); font-size: 13px; line-height: 2; margin: 0 0 30px; }
-.creator-frame-wrap { background: var(--paper-deep); padding: 12px; }
-.creator-frame { background: white; border: 0; display: block; height: 570px; width: 100%; }
+.creator { border-top: 1px solid var(--line); margin: 0 auto; max-width: 1240px; padding: 95px 5vw 120px; }
+.creator-book { box-shadow: 0 16px 35px rgb(36 35 31 / 12%); display: grid; grid-template-columns: 1fr 1fr; margin: 0 auto; max-width: 980px; }
+.creator-page { min-height: 500px; padding: 45px 7%; position: relative; }
+.creator-photo-page { background: #d8c6b4; padding: 0; }
+.creator-photo-page::after { background: linear-gradient(120deg, rgb(36 35 31 / 8%), transparent 45%); content: ""; inset: 0; pointer-events: none; position: absolute; }
+.creator-photo-page img { display: block; height: 100%; object-fit: cover; width: 100%; }
+.creator-copy-page { background: #fcfaf4; border-left: 1px solid var(--line); }
+.creator-copy-page h2 { margin-bottom: 28px; }
+.creator-lead { color: var(--ink); font-size: 16px; line-height: 2.15; margin: 0 0 30px; }
+.creator-note { color: var(--muted); font-size: 12px; line-height: 2; margin: 0 0 35px; }
+.creator-rule { background: var(--accent-soft); height: 1px; margin: 0 0 25px; width: 42px; }
+.page-number { bottom: 22px; color: var(--muted); font-family: var(--mono); font-size: 10px; position: absolute; right: 7%; }
 .site-footer { display: flex; font-family: var(--mono); font-size: 9px; justify-content: space-between; letter-spacing: .08em; margin: 0 auto; max-width: 1240px; padding: 28px 5vw; }
 .sr-only { height: 1px; margin: -1px; overflow: hidden; position: absolute; width: 1px; clip: rect(0, 0, 0, 0); }
 @keyframes rise-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
@@ -98,9 +105,12 @@ h2 { font-size: 42px; font-weight: 600; letter-spacing: -.08em; margin: 13px 0 0
   .about-stamp { margin-bottom: 52px; }
   .about h2 { font-size: 27px; }
   .about-copy { margin-top: 28px; }
-  .creator { display: block; padding: 72px 6vw 90px; }
-  .creator-heading { margin-bottom: 35px; }
-  .creator-frame-wrap { padding: 7px; }
-  .creator-frame { height: 560px; }
+  .creator { padding: 72px 6vw 90px; }
+  .creator-book { display: block; }
+  .creator-page { min-height: 390px; padding: 35px 8%; }
+  .creator-photo-page { height: 390px; }
+  .creator-copy-page { border-left: 0; border-top: 1px solid var(--line); min-height: 390px; }
+  .creator-copy-page h2 { font-size: 30px; }
+  .creator-lead { font-size: 14px; }
   .site-footer { flex-wrap: wrap; gap: 12px; line-height: 1.6; padding: 24px 6vw; }
 }
